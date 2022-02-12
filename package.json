@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-  	"start": "node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "",
@@ -17,6 +17,7 @@
     "shortid": "^2.2.16"
   },
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   }
 }
